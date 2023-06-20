@@ -2,6 +2,7 @@
 
 /**
  * @type {import('@types/aws-lambda').APIGatewayProxyHandler}
+ test
  */
 exports.handler = async (event) => {
     console.log(`EVENT: ${JSON.stringify(event)}`);
